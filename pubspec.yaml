@@ -1,0 +1,77 @@
+name: beauty_saloon
+description: multi vendor beauty saloon app
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  shared_preferences: ^0.5.7+3
+  cached_network_image: ^2.0.0
+  flutter_rating_bar: ^3.0.0
+  url_launcher: ^5.0.0
+  country_code_picker: ^1.7.0
+  flutter_range_slider: "^1.5.0"
+  group_radio_button: ^1.0.1
+  carousel_slider: ^3.0.0
+  persistent_bottom_nav_bar: ^2.1.0
+  #intl: ^0.16.1
+  intl: ^0.17.0
+  provider: ^4.3.3
+  flutter_bloc: ^4.0.0
+  equatable: ^1.1.1
+  image_picker: ^0.6.6+5
+  dio: ^3.0.9
+  otp_text_field: ^1.0.2
+  path: ^1.7.0
+  mime: ^1.0.0
+  fluttertoast: 8.0.7
+  date_format: 1.0.9
+  html: ^0.14.0
+  flutter_calendar_carousel: 1.5.3
+  #onesignal_flutter: ^2.3.4
+  onesignal_flutter: ^2.6.3
+  #flutter_paytabs_bridge: 2.0.6
+  flutter_paytabs_bridge: ^2.1.1
+  http:
+  share: ^2.0.2
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand/Quicksand-Bold.ttf
+        - asset: assets/fonts/Quicksand/Quicksand-Light.ttf
+        - asset: assets/fonts/Quicksand/Quicksand-Medium.ttf
+        - asset: assets/fonts/Quicksand/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand/Quicksand-SemiBold.ttf
+        - asset: assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf
+
+  assets:
+    - assets/images/
+    - assets/icons/
